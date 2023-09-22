@@ -1,0 +1,121 @@
+@font-face {
+  src: url(./assets/fonts/Karla-Bold.ttf);
+  font-family: 'Karla-Bold';
+}
+
+@font-face {
+  src: url(./assets/fonts/Inter-Regular.ttf);
+  font-family: 'Inter-Regular';
+}
+
+html { font-size:62.5%; }
+
+body { background-color: #DCDCDC;}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.bg-white { background-color:#FFFFFF;}
+
+.bg-darkblue { background-color:#2B283A;}
+
+.bg-gray { background-color:#F5F5F5;}
+
+.bg-aquagreen { background-color:#59E391;}
+
+.bg-blue { background-color:#5035FF;}
+
+.text-darkblue { color:#2B283A;}
+
+.text-navyblue { color:#4A4E74;}
+
+.text-white { color:#FFFFFF;}
+
+h1 {
+  font-family: 'Karla-Bold';
+  font-size:2.56rem;
+  letter-spacing:-0.0768rem;
+}
+
+p {
+  font-family: 'Inter-Regular';
+  font-size:1.31rem;
+}
+
+button {
+  width:9.21rem;
+  height:3.58rem;
+  font-family: 'Karla-Bold';
+  font-size:1.63rem;
+  border-radius:0.38rem;
+  box-shadow: 0rem 0.2rem 0.2rem 0rem rgba(0, 0, 0, 0.15);
+}
+
+.d-flex { display:flex;}
+
+.align-items-center { align-items: center;}
+
+.justify-content-center { justify-content: center;}
+
+.container {
+  width:51.1rem;
+  height:51.7rem;
+  padding-top:6.9rem;
+  padding-bottom:6.9rem;
+  padding-left:7.5rem;
+  padding-right:7.5rem;
+}
+
+.container-inner {
+  width:36rem;
+  height:37.9rem;
+  padding-top:3rem;
+  padding-bottom:3rem;
+  padding-left:2rem;
+  padding-right:2rem;
+}
+
+.container-content {
+  width:32rem;
+  height:32rem;
+  padding-top:3.3rem;
+  padding-bottom:3.3rem;
+  padding-left:3.46rem;
+  padding-right:3.46rem;
+  border-radius:1rem;
+  text-align:center;
+}
+
+.description { padding-top:0.3rem; }
+
+.numbersgrid-div {
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap:1.79rem;
+  row-gap:1.85rem;
+  padding-top:3rem;
+}
+
+.number-box {
+  width:3.58rem;
+  height:3.58rem;
+  border-radius:0.38rem;
+  box-shadow: 0rem 0.2rem 0.2rem 0rem rgba(0, 0, 0, 0.15);
+}
+
+.number-box span {
+  font-family:'Karla-Bold';
+  font-size:2rem;
+}
+
+.button-div { padding-top:2.56rem; }
+
+@media only screen and (max-width: 512px) { html { font-size:50%; } }
+
+@media only screen and (max-width: 414px) { html { font-size:40%; } }
+
+@media only screen and (max-width: 332px) { html { font-size:30%; } }
